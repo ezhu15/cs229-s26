@@ -15,6 +15,8 @@
 class BigInt {
 private:
   // TODO: add fields
+  std::vector<uint64_t> mag;
+  bool neg;
 
 public:
   //! Default constructor.
