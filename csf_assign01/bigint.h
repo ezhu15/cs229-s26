@@ -17,6 +17,9 @@ private:
   // TODO: add fields
   std::vector<uint64_t> mag;
   bool neg;
+  static BigInt add_magnitudes(const BigInt &lhs, const BigInt &rhs);
+  static BigInt subtract_magnitudes(const BigInt &lhs, const BigInt &rhs);
+  static int compare_magnitudes(const BigInt &lhs, const BigInt &rhs);
 
 public:
   //! Default constructor.
